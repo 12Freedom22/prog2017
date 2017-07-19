@@ -1,0 +1,93 @@
+import turtle
+t = turtle.Turtle()
+turtle.position()
+
+t.home()
+t.clear()
+
+t.fprward(100)
+t.left(90)
+t.forward(100)
+
+def rect(x,y,a):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.down()
+  for i in range(4):
+    t.forward(a)
+    t.left(-90)
+＃空行
+
+t.clear()
+rect(10,10,100)
+rect(10,-110,100)
+rect(-110,10,100)
+rect(-110,-110,100)
+
+さいころ168
+
+
+class Dice:
+  face_num = 6
+  def shoot(self):
+    return random.randint(1, self.face_num)
+＃空行
+
+import random
+aDice = Dice()
+aDice.shoot()
+
+
+1000面体にする
+face_num = 1000
+def shoot()
+
+n 面体のさいころにする。169
+
+
+class Dice:
+  def __init__(self, val):
+    self.face_num = val
+  def shoot(self):
+    return random.randint(1, self.face_num)
+
+
+170  class
+171  self
+172  __init__
+
+
+178
+python
+
+181  cui
+
+182
+
+cd /cit
+dir
+
+dirで中のファイルを表示する
+
+.はいまいる所 ..は一つ上
+
+
+result.txt
+
+ファイル名を指定すれば書き込んでくれる
+
+
+
+
+import sys
+
+sum = 0
+for line in sys.stdin:
+ sum += int(line.stript(())
+  print(line)
+
+
+
